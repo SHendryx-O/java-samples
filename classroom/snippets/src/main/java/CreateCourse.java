@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//[START createCourse]
+//[START classroom_create_course]
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.json.gson.GsonFactory;
@@ -33,7 +33,6 @@ public class CreateCourse {
      * @throws GeneralSecurityException if a trusted http transport cannot be created
      */
     public static Course createCourse() throws GeneralSecurityException, IOException {
-        // [START classroom_createCourse]
         // Load pre-authorized user credentials from the environment.
         // TODO(developer) - See https://developers.google.com/identity for
         // guides on implementing OAuth2 for your application.
@@ -66,13 +65,6 @@ public class CreateCourse {
         System.out.printf("Course created: %s (%s)\n", course.getName(), course.getId());
         return course;
     }
-    // [END createCourse]
+    // [END classroom_create_course]
 
-    public static void main(String... args) throws GeneralSecurityException, IOException {
-        try {
-            Course course = createCourse();
-        } catch(Exception e) {
-            System.err.println("There was an exception creating this course: " + e.getMessage());
-        }
-    }
 }
