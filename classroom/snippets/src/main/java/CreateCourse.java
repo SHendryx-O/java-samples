@@ -29,8 +29,8 @@ public class CreateCourse {
      * Create Course
      *
      * @return the created course
-     * @throws IOException if the course cannot be created
-     * @throws GeneralSecurityException if a trusted http transport cannot be created
+     * @throws IOException
+     * @throws GeneralSecurityException
      */
     public static Course createCourse() throws GeneralSecurityException, IOException {
         // Load pre-authorized user credentials from the environment.
