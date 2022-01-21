@@ -66,5 +66,4 @@ public class CreateCourse {
         return course;
     }
     // [END classroom_create_course]
-
 }
