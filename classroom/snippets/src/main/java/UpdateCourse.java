@@ -55,8 +55,4 @@ public class UpdateCourse {
     return course;
   }
   // [END classroom_update_course]
-
-  public static void main(String... args) throws GeneralSecurityException, IOException {
-    updateCourse();
-  }
 }
