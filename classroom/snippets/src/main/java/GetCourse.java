@@ -47,7 +47,7 @@ public class GetCourse {
             .setApplicationName("Classroom Get Course Sample")
             .build();
 
-    // TODO (developer) Please replace the following course ID with one from your classroom
+    // TODO (developer) Please change the course ID below to a course ID in your classroom
     String courseId = "1234567";
     Course course = null;
     try {
