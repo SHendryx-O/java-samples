@@ -45,8 +45,8 @@ public class UpdateCourse {
             .setApplicationName("Classroom Update Course Sample")
             .build();
 
-    // TODO (developer) Please change the course ID below to match one from your classroom
-    String courseId = "457271499499";
+    // TODO (developer) Please change the course ID below to a course ID in your classroom
+    String courseId = "1234567";
     Course course = classroom.courses().get(courseId).execute();
     course.setSection("Period 3");
     course.setRoom("302");
