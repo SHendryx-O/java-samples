@@ -35,7 +35,7 @@ public class PatchCourse {
    */
   public static Course patchCourse() throws IOException, GeneralSecurityException {
     // Load pre-authorized user credentials from the environment.
-    // TODO(developer) - See https://developers.google.com/identity for
+    // TODO (developer) - See https://developers.google.com/identity for
     // guides on implementing OAuth2 for your application.
     GoogleCredentials defaultCredentials = GoogleCredentials.getApplicationDefault();
     NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
