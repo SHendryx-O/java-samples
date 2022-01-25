@@ -33,7 +33,7 @@ public class PatchCourse {
    * @throws IOException
    * @throws GeneralSecurityException
    */
-  public static Course patchCourse() throws IOException, GeneralSecurityException {
+  public static Course patchCourse(String courseId) throws IOException, GeneralSecurityException {
     // Load pre-authorized user credentials from the environment.
     // TODO (developer) - See https://developers.google.com/identity for
     // guides on implementing OAuth2 for your application.
@@ -45,8 +45,6 @@ public class PatchCourse {
             .setApplicationName("Classroom Patch Course Sample")
             .build();
 
-    // TODO (developer) Please change the course ID below to a course ID in your classroom
-    String courseId = "1234567";
     Course course = new Course()
             .setSection("Period 3")
             .setRoom("302");
