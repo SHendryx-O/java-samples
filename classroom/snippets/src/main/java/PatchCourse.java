@@ -29,6 +29,7 @@ public class PatchCourse {
   /**
    * Patch Course
    *
+   * @param courseId - the course ID of the course
    * @return the courses object that was patched
    * @throws IOException
    * @throws GeneralSecurityException

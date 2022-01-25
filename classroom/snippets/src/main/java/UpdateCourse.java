@@ -29,6 +29,7 @@ public class UpdateCourse {
   /**
    * Update Course
    *
+   * @param courseId - the course ID of the course
    * @return the course that was updated
    * @throws IOException
    * @throws GeneralSecurityException

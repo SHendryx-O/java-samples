@@ -31,6 +31,7 @@ public class GetCourse {
   /**
    * Get Course
    *
+   * @param courseId - the course ID of the course
    * @return the course requested (null if the course doesn't exist)
    * @throws IOException
    * @throws GeneralSecurityException
